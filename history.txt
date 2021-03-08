@@ -1,0 +1,1000 @@
+    4  ls -lrt
+    5  chmod 777
+    6  chmod 777 file1
+    7  ls -lrt
+    8  history
+    9  gep -c "hi" file1
+   10  vi file1
+   11  ls -lrt
+   12  find . type f - name "file1"
+   13  find . -type f -name "file1"
+   14  find / -type f -name "file*"
+   15  touch file2 file3 file4 file5 file6
+   16  rm file2
+   17  ls -lrt
+   18  rm -rf file3 file4 file5
+   19  ls -lrt
+   20  nano file1
+   21  cat file1
+   22  grep hi file1
+   23  grep -i "hi" file1
+   24  grep -c "hi" file1
+   25  grep -o "hi" file1
+   26  grep -e "hi" -e "harie" -e "kishore"
+   27  grep -e"hi" -e"hari"
+   28  grep -e"hi" -e"hari" file1
+   29  grep -v "hi" file1
+   30  cat file1
+   31  grep -v "hi" file1
+   32  ls -lrt
+   33  touch file2 file3 file4
+   34  ls -lrt
+   35  chmod 744 file3
+   36  ls -lrt
+   37  chmod 777 file3
+   38  ls -lrt
+   39  cat file1
+   40  grep -v "hi" file1
+   41  cat file1
+   42  chmod 111 file3
+   43  ls -lrt
+   44  find .-typef-name "file1"
+   45  find . -type f name "file1"
+   46  history
+   47  find . -type f -name "file1"
+   48  find / -type f -name "file2"
+   49  find . -typef name "file2"
+   50  find . -typef name "file1"
+   51  find . -type f -name "file1"
+   52  ls -lrt
+   53  find . -type f -name "file2"
+   54  find . -type f -name "file3"
+   55  find / -type f -name "file4"
+   56  ls -lrt
+   57  chmod 777 file2
+   58  ls -lrt
+   59  chmod 774 file3
+   60  ls -lrt
+   61  chmod 700 file3
+   62  ls -lrt
+   63  chmod 7 file3
+   64  ls -lrt
+   65  cat >>fiel1
+   66  cat file1
+   67  cat file11
+   68  grep -i 
+   69  grep -v "hi" file
+   70  whoami
+   71  w
+   72  find . -typef name "files"
+   73  history
+   74  find . -type f -name "files"
+   75  find / -type f -name "files"
+   76  ls -lrt >files
+   77  cat files
+   78  find . -type f -name "files"
+   79  cat ./dir4/dir5/files
+   80  find / -type d -name "dir*"
+   81  sudo su
+   82  ls -lrt
+   83  ls -lrth
+   84  gzip file1
+   85  ls -lrt
+   86  gunzip file1.gz
+   87  ls -lrt
+   88  gzip fil*
+   89  ls -lrt
+   90  gunzip fil*.gz
+   91  clear
+   92  ls -lrt
+   93  tar -cvzf dir5.tar file1 file6 dir4
+   94  ls -lrt
+   95  rm -rf fileq file6 dir4
+   96  ls -lrt
+   97  rm file1
+   98  ls -lrt
+   99  touch dir1 dir2 dir3
+  100  ls -lrt
+  101  touch dir1/dir2/dir3
+  102  touch dir4/dir5/dir5
+  103  ls -lrt
+  104  mk dir -p dir4/dir5/dir6
+  105  mkdir -p dir4/dir5/dir6
+  106  ls -lrt
+  107  cd dir4/dir5/dir6
+  108  cd ..
+  109  cd ../../..
+  110  cd -
+  111  echo "hi hari"
+  112  echo "hi hari krishna ">files
+  113  cat files
+  114  "hi kolagani
+  115  "hi kolagani">files1
+  116  "hi kolgani"> files1
+  117  ls -lrt
+  118  find . -type f -name "file4"
+  119  mkdir dir6 dir7 dir8 dir9
+  120  ls -lrt
+  121  find . -type d -name "dir8"
+  122  sudu su
+  123  sudo su
+  124  ls -lrth
+  125  gzip file3
+  126  ls -lrt
+  127  gzip file4
+  128  ls -lrt
+  129  gunzip file4
+  130  ls -lrt
+  131  clear
+  132  ls -lrt
+  133  tar -cvzf example.tar
+  134  taa -cvzf dir3.tar
+  135  tar -cvzf dir5.tar file1 file6 dir4
+  136  mkdir scripts
+  137  cd scripts
+  138  vi hello.sh
+  139  ls -lrt
+  140  chmod 755 hello.sh
+  141  sh hello.sh
+  142  ls -lrt
+  143  find . -type f -name "*.log"
+  144  find . -type f -name "*ie11" exec rm -rf {} \;
+  145  find . -type f -name "*ie11"-exec rm -rf {} \;
+  146  ls -lrt
+  147  find . -type f -name "*ie11"-exec rm -rf {} \;
+  148  history
+  149  find . -mtime +to -type f - name "*.log" -exxec tar -cvzf logx.tar {} \;
+  150  find . -mtime +60 -type f - name "*.log" -exxec tar -cvzf logx.tar {} \;
+  151  cat file1
+  152  wc -l file1
+  153  cat -n file1
+  154  ls -lcw
+  155  head file1
+  156  head -5 file1
+  157  tail file1
+  158  taile -15 file1
+  159  df -h
+  160  du -sh
+  161  free -m
+  162  top
+  163  ls -lrt | grep "drwx"
+  164  ps -ef
+  165  netstat -anlp
+  166  vmstat
+  167  git -- version
+  168  sed -n '5,10d' file1
+  169  cat file1
+  170  sed '5,10d' file1
+  171  sudu su
+  172  ls -lrta
+  173  w
+  174  date
+  175  id
+  176  exit
+  177  id
+  178  useradd hari
+  179  exit
+  180  history
+  181  sudo su
+  182  vi file5.sh
+  183  sh file5.sh
+  184  cat file5.sh
+  185  chmod 755 file5.sh
+  186  ./file5.sh
+  187  sh -x file5.sh
+  188  df -h
+  189  df -h | awk '{print $5}'
+  190  df -h | awk '{print $5}' | head 8
+  191  df -h | awk '{print $5}' | head 8 
+  192  df -h | awk '{print $5}' | head -8 | tail -1
+  193  vi file12.sh
+  194  vi file13.sh
+  195  chmod 755 file13.sh
+  196  sh file13.sh
+  197  vi file12
+  198  vi file12.sh
+  199  cat file13
+  200  cat file13.sh
+  201  vi file13.sh
+  202  sh file13.sh
+  203  vi file13.sh
+  204  cat file12
+  205  cat file12.sh
+  206  vi file13.sh
+  207  sh file13.sh
+  208  cat file13.sh
+  209  vi filep 1
+  210  sh filep
+  211  ./filep.sh
+  212  ./filep
+  213  chmod 755
+  214  chmod 755 filep
+  215  ./filep
+  216  id 
+  217  useradd user2
+  218  sudo su
+  219  df -h
+  220  du -sh
+  221  free -m
+  222  top
+  223  ps -ef 
+  224  vmstat
+  225  ls -lrt
+  226  ps -ef
+  227  ls -lrth
+  228  ls -trl
+  229  vi file12.sh
+  230  cat file12.sh
+  231  chmod 755 file12.sh
+  232  sh file12.sh
+  233  vi file12.sh
+  234  sh file12.sh
+  235  vi file12.sh
+  236  sh file12.sh
+  237  vi file12.sh
+  238  ls -lrt
+  239  vi file12.hs
+  240  ./file12.sh
+  241  vi file14.sh
+  242  vi file13.sh
+  243  ./file13.sh
+  244  vi file20.sh
+  245  chmod 755 file20.sh
+  246  ./file20.sh
+  247  vi file21.sh
+  248  vi file20.sh
+  249  vi file21.sh
+  250  ./file21.sh
+  251  chmod 755 file21.sh
+  252  ./file21.sh
+  253  vi file21.sh
+  254  chmod 777 file21.sh
+  255  vi file21.sh
+  256  ./ file21.sh
+  257  ./file21.sh
+  258  vi file21.sh
+  259  ./file21.sh
+  260  vi file21.sh
+  261  ls -lrt
+  262  vi day1.sh
+  263  ./day1.sh
+  264  chmod 755 day1.sh
+  265  ./day1.sh
+  266  vi day1.sh
+  267  ./day1.sh
+  268  vi day2.sh
+  269  chmod 755 day2.sh
+  270  ./day2.sh
+  271  cat day2.sh
+  272  vi day2.sh
+  273  ./day2.sh
+  274  vi day2.sh
+  275  vi day3.sh
+  276  pwd
+  277  id
+  278  w
+  279  ls -l
+  280  ls -lrth
+  281  touch hari1
+  282  ls -l
+  283  ls -lrth
+  284  ls -a
+  285  ls -l hari1
+  286  ls -id dir9
+  287  cd ..
+  288  cd -
+  289  mkdir dir11
+  290  mkdir dir11/dir12/dir13
+  291  cd dir11
+  292  mkdir -p dir12/dir13/dir14
+  293  cd ..
+  294  mkdir -m dir15
+  295  mkdir --help
+  296  mkdir -m 777 haridir
+  297  ls -lrt
+  298  mkdir -v  haridir1
+  299  vi harifile
+  300  cat file11.sh
+  301  cat >haritext.txt
+  302  cat >>haritext
+  303  cat haritext
+  304  cat haritext.txt
+  305  cat >>haritext.txt
+  306  cat haritext.txt
+  307  touch haridummy.txt
+  308  cp haritext haritext.txt
+  309  cat haritext.txt
+  310  cp file12.sh haritext.txt
+  311  cat haritext.txt
+  312  mv haritext.txt file12.sh
+  313  cat file12.sh
+  314  cat haritext.txt
+  315  clear
+  316  ls -lrt
+  317  touch delete1 delete2 delete3 delete4
+  318  rm delete1 delete2
+  319  ls -lrt
+  320  rm delete3 delete4
+  321  ls -lrt
+  322  find -type f -name "file20.sh"
+  323  find / -name "haridir"
+  324  find / -name "haritext"
+  325  ls -lrt
+  326  vi day9.sh
+  327  ./day9.sh
+  328  vi day9.sh
+  329  ./day9.sh
+  330  vi day9.sh
+  331  ./day9.sh
+  332  vi day9.sh
+  333  ./day9.sh
+  334  vi day9.sh
+  335  ./day9.sh
+  336  vi day9.sh
+  337  ./day9.sh
+  338  vi day9.sh
+  339  vi array.sh
+  340  vi array.sh
+  341  ls -lrt
+  342  vi array1.sh
+  343  ./array1.sh
+  344  chmod 755 array1.sh
+  345  ./array1.sh
+  346  cat array1.sh
+  347  vi functions.sh
+  348  chmod 755 functions.sh
+  349  ./functions.sh
+  350  ./functions.sh 2 5
+  351  ./functions.sh 2 6
+  352  cat functions.sh
+  353  vi functions.sh
+  354  ./functions.sh 2 6
+  355  vi functions.sh
+  356  ./functions.sh 2 6
+  357  ls -lrt | grep "drwx"
+  358  df -h | grep "*%"
+  359  df -h
+  360  df -h | grep "Use%"
+  361  df -h | grep ">75%"
+  362  vi homework1.sh
+  363  chmod 755 homework1.sh
+  364  ./homework1.sh
+  365  vi homework1.sh
+  366  ls -lrt | "drwx"
+  367  ls -lrt | grep "drwx"
+  368  df -h
+  369  df -h | awk '{print $5}'
+  370  df -h | awk '{print $5}' |head -r | tail -1
+  371  df -h | awk '{print $5}' |head -4 | tail -1
+  372  vi arr3.sh
+  373  git --version
+  374  git init repo1
+  375  ls -lrta
+  376  cd repo
+  377  cd repo1
+  378  ls -lrta
+  379  vi file1.java
+  380  git status
+  381  git add file1.java
+  382  git status
+  383  git commit -m "initail commit"
+  384  git status
+  385  cat file1.java
+  386  -a -help
+  387  -help
+  388  -a --help
+  389  ls -lrt --help
+  390  ls -lrt
+  391  real_ex1.sh
+  392  vi real_ex1.sh
+  393  ./real_ex1.sh
+  394  vi real_ex1.sh
+  395  ./real_ex1.sh
+  396  vi real_ex1.sh
+  397  ./real_ex1.sh
+  398  vi real_ex1.sh
+  399  ./real_ex1.sh
+  400  cat real_ex1.sh
+  401  vi real_ex1.sh
+  402  ./real_ex1.sh
+  403  vi real_ex1.sh
+  404  ./real_ex1.sh
+  405  vi real_ex1.sh
+  406  ./real_ex1.sh
+  407  vi real_ex1.sh
+  408  ./real_ex1.sh
+  409  vi real_ex1.sh
+  410  ./real_ex1.sh
+  411  vi real_ex1.sh
+  412  ./real_ex1.sh
+  413  vi real_ex1.sh
+  414  ./real_ex1.sh
+  415  vi real_ex1.sh
+  416  ./real_ex1.sh -1
+  417  ./real_ex1.sh -a
+  418  ./real_ex1.sh -a 10
+  419  ls -lrt
+  420  cd repo1
+  421  pwd
+  422  mkdir dir21
+  423  cd dir21
+  424  ls -lrt
+  425  ls -lrt --help
+  426  mkdirr dir23/dir24/dir25
+  427  mkdir -p dir23/dri24/dir25
+  428  cd dir23
+  429  cd ..
+  430  cd ../..
+  431  cd repo1
+  432  rm -rf dir21/dir23/dir24
+  433  ls -lrt
+  434  cd dir21
+  435  ls -lrt
+  436  cd ..
+  437  rm dir21
+  438  rm -rf dir21
+  439  ls -lrt
+  440  touch file30 file31
+  441  cat >>file30
+  442  echo "hi hari"
+  443  nano file30
+  444  rm file3*
+  445  ct file30
+  446  cat file30
+  447  ls -lrt
+  448  cd repo1
+  449  ls -lrt
+  450  touch file2.txt
+  451  touch file3.python
+  452  git status
+  453  git add .
+  454  git status
+  455  git commit -m "two files committed"
+  456  git log
+  457  cd ..
+  458  cd repo1
+  459  vi file1.java
+  460  cat file1.java
+  461  git chekcout file1.java
+  462  cat file1.java
+  463  git status
+  464  git file1.java
+  465  git add.
+  466  git status
+  467  git add .
+  468  git status
+  469  git checkout file1.java
+  470  cat file1.java
+  471  git status
+  472  git log --oneline
+  473  git revert 76bc037 
+  474  git revert 91b1a61
+  475  git revert 76bc037
+  476  touch file3.java
+  477  git status
+  478  git add .
+  479  git commit -m "one file is committed"
+  480  git satus
+  481  git status
+  482  git log --oneline
+  483  git revert 76bc037
+  484  git revert 4a98783
+  485  vi file4.java
+  486  git status
+  487  git add .
+  488  git commit -m "two files committed"
+  489  git config --global user.hari
+  490  git config --global user.email "abc@xyz.com"
+  491  gif config --global user.name "hari krishna"
+  492  git config --global user.name "hari krishna"
+  493  vi file1.java
+  494  git add .
+  495  git status
+  496  git commit -m "one file committed"
+  497  git log
+  498  ls -lrta
+  499  git init repo2
+  500  ls -lrta
+  501  cd repo2
+  502  ls -lrta
+  503  vi file1.java
+  504  git status
+  505  add file1.java
+  506  git add file1.java
+  507  git status
+  508  git commit -m "intial commit"
+  509  git status
+  510  vi file2.py
+  511  vi file3.c
+  512  git status
+  513  git add .
+  514  git commit -m "two files "
+  515  git log
+  516  vi file2.py
+  517  git checkout file2.py
+  518  cat file2.py
+  519  vi file2.py
+  520  git checkout file2.py
+  521  cat file2.py
+  522  git revert cid
+  523  git log --oneline
+  524  git revert e7da150 
+  525  git reset HEAD file2.py
+  526  cat file2.py
+  527  ls -lrt
+  528  ls -lrta
+  529  git reset HEAD file1.java
+  530  ls -lrta
+  531  git status
+  532  git config --list
+  533  histroy
+  534  history
+  535  git --version
+  536  git init repo5
+  537  ls -lrt
+  538  cd haridir
+  539  cd ..
+  540  cd repo5
+  541  ls -lrt
+  542  ls -lrta
+  543  vi file1.java
+  544  git status
+  545  git add file1.java
+  546  git status
+  547  git commit -m"jagratha ga kurchondi"
+  548  git status
+  549  ls -lrt
+  550  cd repo5
+  551  git log
+  552  git checkout filename
+  553  vi file5.hava
+  554  git checkout file5.hava
+  555  vi file1.java
+  556  ls -lrta
+  557  git checkout file1.java
+  558  cat file1.java
+  559  git --oneline
+  560  cd repo1
+  561  ls -lrt
+  562  git status
+  563  vi file4.java
+  564  git add file4.java
+  565  git status
+  566  git stash
+  567  git status
+  568  vi file1.java
+  569  git add file1.java
+  570  git commit -m"priority work"
+  571  git status
+  572  git stash apply
+  573  vi file4.java
+  574  git add file4.java
+  575  git commit -m "previous work committed"
+  576  git status
+  577  git stash list
+  578  git stash pop
+  579  git status
+  580  git add file4.java
+  581  git commit -m
+  582  git commit -m"committed twice"
+  583  git stash list
+  584  git stash drop
+  585  git stash list
+  586  hi
+  587  ls -lrt
+  588  cd dir11
+  589  pwd
+  590  mkdir all
+  591  ls -lrt
+  592  ls -lrt --help
+  593  mkdir all1 all2 all3 all4
+  594  mkdir all5/all6/all7/all8
+  595  cd ..
+  596  cd dir11
+  597  cd all3
+  598  cd ../..
+  599  ls -lrth
+  600  ls -llrt
+  601  ls lrt
+  602  ls -lrt
+  603  cd dir1
+  604  cd haridir
+  605  cat >file1
+  606  cat file1
+  607  echo "hellow world"
+  608  ls -lrt 
+  609  cat ee1
+  610  vi file1
+  611  nano file1
+  612  touch file2 file3 file4
+  613  rm file2 file3 file4
+  614  mkdir dir1 dir2 dir3
+  615  rm -rf dir1 dir2 dir3
+  616  ls -lrt
+  617  muni1
+  618  touch file2
+  619  cp file1 file2
+  620  cat file2
+  621  cat file1
+  622  who am i
+  623  w
+  624  Owners
+  625  ls -lrt
+  626  chmod 744 file1
+  627  ls -lrt
+  628  find . -type f -name "file1"
+  629  cd ..
+  630  find . -type f -name "file1"
+  631  find / -type f -name "file1"
+  632  find / -type d -name "dir*"
+  633  sudo su
+  634  gzip file1
+  635  cat file1
+  636  gunzip file1
+  637  cat file1
+  638  clear
+  639  tape archive
+  640  tap archive --help
+  641  tape  --help
+  642  tar cvzf file1.tar
+  643  ls -lrt
+  644  cd haridir
+  645  ls -lrt
+  646  tar -cvzf example.tar file1
+  647  ls -lrt
+  648  tar -xvzf example.tar
+  649  ls -lrt
+  650  find . -mtime +30 -type f -name "*.log"
+  651  find . -mtime +30 -type f -name "*.log" {} \;
+  652  find . -mtime +30 -type f -name "*.log";
+  653  find . -mtime +30 -type f -name "*.log" tar -cvzf logs.tar {} \;
+  654  ls -lrt
+  655  find . -mtime +30 -type f -name "*.log" tar -cvzf logs.tar {} \;
+  656  find . -mtime +30 -type f -name "*.log" -exec tar -cvzf logs.tar {} \;
+  657  ls -lrt
+  658  find . -type f -name "logs.tar"
+  659  ls -lrt
+  660  wc -l file1
+  661  cat file1
+  662  cat -n file1
+  663  wc file1
+  664  wc -lcw file1
+  665  ls -lrt
+  666  list
+  667  head file1
+  668  head -5 file1
+  669  tail file1
+  670  dir
+  671  df -h
+  672  du -sh
+  673  free -m
+  674  free -h
+  675  fstab
+  676  fs
+  677  fdish
+  678  fdisk
+  679  ps -ef
+  680  ps -ef | grep java
+  681  ps -ef
+  682  netstat -anlp
+  683  vmstat
+  684  ssh user@ip
+  685  ssh 
+  686  git --version
+  687  sed commmand
+  688  cat file1
+  689  sed -n '1,3p' file1
+  690  sed '5,2d' file1
+  691  tail -1f file1
+  692  sed -i '1,2d' file1
+  693  man sed
+  694  less file1
+  695  more file1
+  696  awk '{print $3}' ls -lrt
+  697  awk '{print $3}' `ls -lrt`
+  698  awk ls -lrt 
+  699  git checkout -b branch2
+  700  git branch
+  701  cd repo1
+  702  git checkout -b branch2
+  703  git branch
+  704  ls -lrt
+  705  vi file6.java
+  706  git add file6.java
+  707  git commit -m"file6.java"
+  708  git checkout branch1
+  709  git branch
+  710  ls -lrt
+  711  git merge branch2
+  712  ls -lrt
+  713  git checkout master
+  714  ls -lrt
+  715  git merge branch2
+  716  git branch
+  717  cd repo1
+  718  git branch
+  719  git merge branch1
+  720  cat file3.java
+  721  git status
+  722  ls -lrt
+  723  cd rop1
+  724  cd repo1
+  725  ls -lrt
+  726  git bash
+  727  git branch
+  728  git status
+  729  git chekout branch1
+  730  git checkout branch1
+  731  git status
+  732  ls -lrt
+  733  git checkout branch2
+  734  ls -lrt
+  735  git status
+  736  git checkout branch1
+  737  vi file2.txt
+  738  vi file1.java
+  739  git add file1.java
+  740  git commit -m"merging one file"
+  741  git status
+  742  git checkout branch2
+  743  vi file1.java
+  744  git add file1.java
+  745  git commit -m"merging files in branch2"
+  746  git checkout branch1
+  747  git merge branch2
+  748  ls -lrt
+  749  cd repo1
+  750  git branch
+  751  vi file1.java
+  752  git add file1.java
+  753  git commit -m"merging same file"
+  754  git checkout branch2
+  755  cat file1.java
+  756  ls -lrt
+  757  cd repo1
+  758  git branch
+  759  ls -lrt
+  760  git branch
+  761  git status
+  762  ls -lrt
+  763  vi file1.java
+  764  git add file1.java
+  765  git commit -m"commmitting twics"
+  766  git status
+  767  git branch
+  768  git checkout branch1
+  769  ls -lrt
+  770  vi file2.txt
+  771  git add file2.java
+  772  git add file2.txt
+  773  git commit -m"second"
+  774  git status
+  775  git checkout branch1
+  776  git branch
+  777  git chekcout branch2
+  778  git rebase branch2
+  779  git checkout master
+  780  git status
+  781  git rebase branch1
+  782  git log --oneline
+  783  git show 
+  784  02e4acd git cherry-pick 
+  785  02e4acd git cherry-pick e29c275 
+  786  git cherry-pick e29c275 
+  787  git cherry-pick 91b1a61
+  788  git status
+  789  git add .
+  790  git commit -m"add"
+  791  git status
+  792  git branch
+  793  git chekout branch1
+  794  git checkout branch1
+  795  git status
+  796  git log --oneling
+  797  git log --oneline
+  798  git show a086ded 
+  799  git cherry-pick a086ded 
+  800  git cherry-pick 4a98783
+  801  git status
+  802  git add .
+  803  git commit -m "recent"
+  804  gi log --oneline
+  805  git log --oneline
+  806  git cherry-pick 73fac00 
+  807  cd repo1
+  808  ls -lrt
+  809  blame file1.java
+  810  git blame file1.java
+  811  git diff file1
+  812  vi file1.java
+  813  git diff file1.java
+  814  ls -lrt
+  815  cd repo2
+  816  cd ..
+  817  git clone https://github.com/7892860749/repo1.git
+  818  mvn --version
+  819  sudo apt install maven
+  820  mvn --version
+  821  sudo su
+  822  ls -lrt
+  823  cd haridir1
+  824  ls -lrt
+  825  pwd
+  826  mkdir hari1 ahri2 hari3 hari4
+  827  ls -lrt
+  828  mkdir -p hari5/hari6/hari7/hari8
+  829  ls -lart
+  830  ch hari5
+  831  ls -lrt
+  832  cd hari5
+  833  ls -lrt
+  834  cd hari6
+  835  ls -lrt
+  836  cd hari7
+  837  ls -lrt
+  838  cd hari8
+  839  ls -lrt
+  840  pwd
+  841  cd ../../....
+  842  cd ../../..
+  843  cd /hari6/hari7/hari8
+  844  ls -lrt
+  845  cd -
+  846  pwd
+  847  cd .././..
+  848  cd hari6/hari7/hari8
+  849  hari6/hari7/hari8
+  850  cd hari6/hari7/hari8
+  851  cd hari7/hari8
+  852  ls -lrt
+  853  touch hari1 hari2 hari3 hari4 hari4 hari5
+  854  ls -lrt
+  855  vi hari5
+  856  echo "hari krishna">ldkjeff
+  857  ls -lrt
+  858  echo "hairofejofa
+  859  eifjeof
+  860  afoejf
+  861  oejfofej
+  862  aoejf
+  863  "
+  864  ls -lrt
+  865  echo "laoejfja
+  866  fejfojeoejfiej
+  867  eojfeoj
+  868  aoejfoe
+  869  afojef
+  870  afeof
+  871  " >
+  872  echo "laoejfja
+  873  fejfojeoejfiej
+  874  eojfeoj
+  875  aoejfoe
+  876  afojef
+  877  afeof
+  878  "
+  879  echo "ljfelj
+  880  afoeojfj
+  881  afoejf
+  882  afioejfa
+  883  echo "jaleof
+  884  ajfoejif
+  885  afoejfa
+  886  foejfa
+  887  feofpa
+  888  feofja
+  889  fioefa
+  890  foejf
+  891  af"
+  892  echo "jaleof
+  893  ajfoejif
+  894  afoejfa
+  895  foejfa
+  896  feofpa
+  897  feofja
+  898  fioefa
+  899  foejf
+  900  af" > hari7
+  901  ls -lrt
+  902  cat hari7
+  903  vi hari7
+  904  ls -lrt
+  905  rm ldkjeff
+  906  ls -lrt
+  907  rm *ri4
+  908  ls -lrt
+  909  cp hari7 hari3
+  910  cat hari3
+  911  ls -lrt 
+  912  cp hari2 hari2.bkp
+  913  cp hari2.bkp hari_2.bkp
+  914  ls -lrt
+  915  cp hari_2.bkp 08032021
+  916  ls -lrt
+  917  rm *.bkp
+  918  ls -lrt
+  919  grep hari2
+  920  cat hari2
+  921  history >hari2
+  922  cat hari2
+  923  clear
+  924  grep ls -lrt
+  925  grep ls -lrt hari2
+  926  grep "ls -lrt" hari2
+  927  grep -c "ls -lrt" hari2
+  928  grep "ls" hari2
+  929  grep -o "ls " hari2
+  930  grep -e "pwd" -e "ls -lt" hari2
+  931  grep -e"pwd" -e"ls -lrt" hari2
+  932  grep -v "ls -lrt" hari2
+  933  grep -v-c"ls -lrt" hari2
+  934  grep -v -c"ls -lrt" hari2
+  935  who am i
+  936  sudo su
+  937  ls -lrt
+  938  cd -
+  939  cd 
+  940  find . -type f -name "hari2"
+  941  find . -type d -name "hari8"
+  942  cd ./haridir1/hari5/hari6/hari7/hari8
+  943  ls -lrt
+  944  ls -lrt>>hari7
+  945  cat hari7
+  946  find / -type d -name "hari*"
+  947  find . -type d "har*"
+  948  find . -type d -name "har*"
+  949  cd 
+  950  find . -type d -name "har*"
+  951  find / -type d -name "har*"
+  952  clear
+  953  find . -type d -name "har*"
+  954  cd ./haridir1/hari5/hari6/hari7/hari8
+  955  ls -lrth
+  956  ls -lrt
+  957  ls -lrth>hari3
+  958  cat hari3
+  959  gzip hari3
+  960  ls -lrt
+  961  gunzip hari3.gz
+  962  ls -lrt
+  963  gzip hari7
+  964  ls -lrt
+  965  gunzip hari7
+  966  ls -lrt
+  967  gzip hari5
+  968  ls -lrt
+  969  gunzip hari5.gz
+  970  ls -lrt
+  971  tar - cvzf hari1
+  972  tar - cvzf hari5
+  973  gzip hari5
+  974  tar - cvzf hari5.gz
+  975  ls -lrt
+  976  tar --hrlp
+  977  tar --help
+  978  ls -lrt
+  979  tar -cvzf hari5.gz hari5.gz.tar
+  980  tar -cvzf hari5.gz hari5.gz
+  981  ls -lrt
+  982  gunzip hari5.gz
+  983  cat hari5.gz
+  984  ls -lrt
+  985  cat hari5
+  986  mkdir hari1
+  987  mkdir harik
+  988  ls -lrt
+  989  gzip hari7
+  990  ls -lrt
+  991  tar -cvzf hari7.gz harik
+  992  ls -lrt
+  993  cd harik
+  994  ls -lrt
+  995  ls -lrt
+  996  cd -
+  997  cd haridir
+  998  ls -lrt
+  999  history
+ 1000  git clone https://github.com/7892860749/repp1.git
+ 1001  cd repp1
+ 1002  history
+ 1003  history >history.txt
